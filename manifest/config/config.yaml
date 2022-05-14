@@ -1,0 +1,16 @@
+server:
+  address: ":8000"
+  openapiPath: "/api.json"
+  swaggerPath: "/swagger"
+
+logger:
+  level: "all"
+  stdout: true
+
+database:
+  main:
+    link: "sqlite: Database/Database.db"
+
+Proxy:
+  SpeedTest:
+    Timeout: 30
